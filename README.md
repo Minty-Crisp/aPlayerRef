@@ -7,6 +7,8 @@ A quickly put together component to help.
 
 [Glitch Example](https://sophisticated-alabaster-stoat.glitch.me)
 
+- Apply to a-scene
+
 ### Component Schema :
 
 camera : the string id of you camera element. Default 'camera'
