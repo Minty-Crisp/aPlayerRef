@@ -3,6 +3,10 @@ An A-frame component to assist in retreiving in-scene data
 
 A quickly put together component to help.
 
+[Glitch Example Code](https://glitch.com/edit/#!/sophisticated-alabaster-stoat)
+
+[Glitch Example](https://sophisticated-alabaster-stoat.glitch.me)
+
 ### Component Schema :
 camera : the string id of you camera element. Default 'camera'
 rig : the string id of your rig element if exists. Default 'rig'
