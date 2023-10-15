@@ -8,8 +8,14 @@ A quickly put together component to help.
 [Glitch Example](https://sophisticated-alabaster-stoat.glitch.me)
 
 ### Component Schema :
+
 camera : the string id of you camera element. Default 'camera'
+
 rig : the string id of your rig element if exists. Default 'rig'
+
 move : A boolean that if enabled, on click will move the player to reference point. Default false
+
 combine : A boolean that when toggled will combine your rig and camera position. Required if using default camera rig setup. Default false.
+
 keys : An array of string keyboard characters that on click will add the reference info. Default: q, Q
+
