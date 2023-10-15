@@ -113,7 +113,7 @@ reference: function () {
 	//Material
 	ref.setAttribute('material', {shader: "standard", color: '#2694ce', emissive: '#2694ce', emissiveIntensity: 0.75, opacity: 0.75, side: 'double'});
 	//Text
-	let posText = 'Pos| x: '+refPos.x.toFixed(2)+ ' | y: '+refPos.y.toFixed(2)+ ' | z: '+refPos.z.toFixed(2)+'\nRot| x: '+refRot.x.toFixed(2)+ ' | y: '+refRot.y.toFixed(2)+ ' | z: '+refRot.z.toFixed(2)+' | w: '+refRot.w;
+	let posText = 'Pos| x: '+refPos.x.toFixed(2)+ ' | y: '+refPos.y.toFixed(2)+ ' | z: '+refPos.z.toFixed(2)+'\nRot| x: '+refRot.x.toFixed(2)+ ' | y: '+refRot.y.toFixed(2)+ ' | z: '+refRot.z.toFixed(2)+' | w: '+refRot.w.toFixed(2);
 	ref.setAttribute('text', {value: posText, color: "#000000", align: "center", font: "exo2bold", zOffset: 0.005, side: 'front', wrapCount: 25, baseline: 'center', align: 'left', width: 2.75});
 	//Look At
 	ref.setAttribute('look-at', this.data.camera);
